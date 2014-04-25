@@ -1,0 +1,96 @@
+/* ### レイアウトをリキッドにして1カラムモデルに */
+#container	{
+	width: 100%;
+	}
+
+article	{
+	width: 100%;
+	float: none;
+}
+/* nivo-lightbox-demo */
+#nivo-lightbox-demo p.indexrole {
+	width: 100%;
+	overflow: hidden;
+}
+#nivo-lightbox-demo p.indexrole a {
+	display: block;
+	float: left;
+	width: 33%;
+}
+
+aside	{
+	width: 100%;
+	float: none;
+}
+	
+/* アイコンメニューの表示位置移動 */
+
+#container	{
+	position: relative;
+}
+
+#iconmenu	{
+	position: absolute;
+	right: 8px;
+	bottom: 6px;
+	width: 200px;
+}
+
+footer	{
+	padding-bottom: 60px;
+}
+
+#site, #iconmenu	{
+	float: none;
+}
+#iconmenu ul {
+	margin: 0;
+	padding: 0;
+}
+#iconmenu img {
+	width: 30px;
+	height: 30px;
+}
+/* ナビゲーションメニューのリキッド化 */
+nav	{
+	font-size: 20px;
+	border-top: 0px;
+	background-color: #0097d8;
+}
+nav li	{
+	float: none;
+	border-top: 1px solid #fff;
+}
+nav li a	{
+	width: 100%;
+}
+
+/* 記事の見出しのコンパクト化 */
+.date	{
+	float: none;
+	font-size: 12px;
+	line-height: 2.5;
+	display: inline;
+	padding: 3px 10px;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.date span	{
+	font-size: 12px;
+	display: inline;
+}
+
+article h2	{
+	font-size: 24px;
+}
+
+
+
+/* ヘッダーカスタマイズ */
+#site h1	{
+	font-size: 24px;
+}
+#site img	{
+	vertical-align: -10px
+}

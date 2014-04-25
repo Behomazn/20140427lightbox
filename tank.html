@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jewel Savior | Tank</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/html5reset-1.6.1.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<link rel="stylesheet" href="css/style-l.css">
+<link rel="stylesheet" href="css/style-m.css" media="only screen and (min-width:600px) and (max-width:979px)">
+<link rel="stylesheet" href="css/style-s.css" media="only screen and (max-width:599px)">
+
+<!-- Webフォントの設定 -->
+<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.js"></script>
+<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        //maxwidth: 800,
+        speed: 800
+      });
+
+      // Slideshow 2
+      $("#slider2").responsiveSlides({
+        auto: false,
+        pager: true,
+        speed: 300,
+        maxwidth: 800
+      });
+
+      // Slideshow 3
+      $("#slider3").responsiveSlides({
+        manualControls: '#slider3-pager',
+        maxwidth: 800
+      });
+
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+  </script>
+</head>
+<body>
+
+<!-- ### コンテナ ### -->
+<div id="container"> 
+  
+  <!-- ### ヘッダー ### --> 
+  <header> 
+  
+  <!-- サイト名 -->
+  <div id="site">
+    <h1>Jewel<span>Savior</span></h1>
+  </div>
+  
+  <!-- アイコンメニュー -->
+  <div id="iconmenu">
+    <ul>
+      <li><a href="http://twitter.com/share?url=https://schoo.jp/class/518&text=挫折した人のための、初心者速習html+css【2カラムボックスモデル編】&via=Behomazn&related=Behomazn"><img src="img/twitter.png" alt="Twitter" /></a></li>
+      <li><a href="http://www.facebook.com/sharer.php?u=https://schoo.jp/class/518&amp;t=挫折した人のための、初心者速習html+css【2カラムボックスモデル編】"> <img src="img/facebook.png" alt="Facebook"> </a></li>
+      <li><a href="https://plus.google.com/share?url=https://schoo.jp/class/518" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"> <img src="img/googleplus.png" alt="Google Plus" /> </a></li>
+      <li><a href='http://feedly.com/index.html#subscription%2Ffeed%2Fhttp%3A%2F%2Fbehomazn.hatenablog.com%2Frss'  target='blank'><img src="img/rss.png" alt="生授業schooのニュース"></a></li>
+    </ul>
+  </div>
+  <!-- iconmenu --> 
+  
+  <!-- ヘッダー画像 -->
+  <!-- Slideshow 1 -->
+  <ul class="rslides" id="slider1">
+    <li><img src="img/header.jpg" alt="汝のロールを遂行せよ！"></li>
+    <li><img src="img/header2.jpg" alt="汝のロールを遂行せよ！"></li>
+    <li><img src="img/header3.jpg" alt="汝のロールを遂行せよ！"></li>
+    <li><img src="img/header4.jpg" alt="汝のロールを遂行せよ！"></li>
+  </ul>
+  <!-- Slideshow 1 end -->
+  </header> <!-- header end --> 
+  <!-- グローバルナビ -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Top</a></li>
+      <li class="on"><a href="tank.html">Tank</a></li>
+      <li><a href="dps.html">DPS</a></li>
+      <li><a href="healer.html">Healer</a></li>
+    </ul>
+  </nav>
+  <!-- nav end --> 
+  
+  <!-- ### コンテンツ ### -->
+  <article>
+    <section>
+      <div class="role"><span>1</span>Tank</div>
+      <h2 id="nanase" name="nanase">七瀬 八宵（ナナセ ヤヨイ）</h2>
+      <div class="STONE">STONE:アレキサンドライト</div>
+      <p>…これが私の力？この大剣で敵を薙ぎ倒せというのか？良いだろう、やってやるさ！それが私の望みだったという事よ…！から…</p>
+      <figure><img src="img/tank1.jpg" alt="七瀬 八宵（ナナセ ヤヨイ）"></figure>
+      <figcaption>Copyright(C) 2014 BRILLIANTSERVICE CO.,LTD. all rights reserved.</figcaption>
+      <p>台詞1：お前と私、なかなか良い組み合わせかもしれないな？:お前とのチームは具合が良い。今後も共に進もう</p>
+      <p>台詞2：お前は私を女として見るか…？ははっ、まあ好きにするが良いさ。女が女であることには何ら変わりがない。問題は性差に依らない能力を、曇りなき眼で評価できるかどうかだ。お前は下らない人間になるなよ？私の期待を裏切らないで欲しいな。</p>
+      <p>台詞3：行こうじゃないか。私達の力を試しにな:表舞台からは退いた身だ、大人しく生きて行こうと思っていたのだがな…:正直なところ、野心がまた戻ってきたようだよ</p>
+      <p>台詞4：浄化か。それはお前だけが持つ特別な力だ。希少であれば価値が高いというのは基本だな:美しい光だな…</p>
+    </section>
+    <section>
+      <div class="role"><span>2</span>Tank</div>
+      <h2 id="aoi" name="aoi">蒼井 悠斗（アオイ ユウト）</h2>
+      <div class="STONE">STONE:サファイヤ</div>
+      <p>受験に向けて勉強も忘れない。メガネは勉強中のみ使用。事の帰結を見届けるために力を得た。あの悪友となら最後まで戦える。</p>
+      <figure><img src="img/tank2.jpg" alt="蒼井 悠斗（アオイ ユウト）"></figure>
+      <figcaption>Copyright(C) 2014 BRILLIANTSERVICE CO.,LTD. all rights reserved.</figcaption>
+      <p>台詞1：まだ全部納得できたわけじゃないですけど…貴方の事は、まあ、信用してもいいかな</p>
+      <p>台詞2：異世界バトルなんて馬鹿げてるっ！…でも、見過ごすわけには…！</p>
+      <p>台詞3：浄化…本当にトリックじゃないのか:俺にも本当に超常の力があるのか…?うっ化物…?みんな大丈夫か！</p>
+      <p>台詞4：こんな茶番に付き合えるかって正直思ってたけど、何時の間にか取り込まれちゃったなあ。でも俺は、現状を全部肯定したりしませんからね！…やってることが本当に正しい事なのか、俺はずっと貴方を見てますよ。まあ、ちょっとぐらいは…手伝っても良いですけどね。</p>
+    </section>
+  </article>
+  <!-- article --> 
+  
+  <!-- ### サイドバー ### -->
+  <aside> 
+    
+    <!-- メニュー -->
+    <div class="menu tank">
+      <h3>Tank</h3>
+      <ul>
+        <li><a href="tank.html#nanase">七瀬 八宵（ナナセ ヤヨイ）</a></li>
+        <li><a href="tank.html#aoi">蒼井 悠斗（アオイ ユウト）</a></li>
+        <li><a href="#">虹逆 世界（ニジサカ セカイ）</a></li>
+        <li><a href="#">国代 伊依（クニシロ イヨリ）</a></li>
+      </ul>
+    </div>
+    
+    <!-- メニュー -->
+    <div class="menu dps">
+      <h3>DPS</h3>
+      <ul>
+        <li><a href="dps.html#chigira">千吉良 澪（チギラ ミオ）</a></li>
+        <li><a href="dps.html#kagura">神楽 蒼子（カグラ ソウシ）</a></li>
+        <li><a href="#">尖岳 椿（センガク ツバキ）</a></li>
+        <li><a href="#">陽世 新芽（ハルセ シンメ）</a></li>
+      </ul>
+    </div>
+    
+    <!-- メニュー -->
+    <div class="menu healer">
+      <h3>Healer</h3>
+      <ul>
+        <li><a href="healer.html#mikage">水陰 那月（ミカゲ ナツ）</a></li>
+        <li><a href="healer.html#shirakiin">白城院 素子（シラキイン モトコ）</a></li>
+        <li><a href="#">荊棘 従道（イバラ ツグミチ）</a></li>
+        <li><a href="#">若草 友樹（ワカクサ トモキ）</a></li>
+      </ul>
+    </div>
+  </aside>
+  <!-- aside --> 
+  
+  <!-- ### フッター ### --> 
+  <footer>
+  <p><a href="http://www.jewel-s.jp/download/">星宝転生ジュエルセイバーフリーコンテンツ</a></p>
+  <small>© 2014 BRILLIANTSERVICE CO.,LTD. all rights reserved.</small> </footer> <!-- footer --> 
+  
+</div>
+<!-- #container -->
+
+</body>
+</html>

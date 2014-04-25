@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="35px" height="35px" viewBox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+	<circle fill="#dbdcdc" cx="17.5" cy="17.5" r="17.5"/>
+	<path fill="#ffffff" d="M12.342,26.75c2.018,0,3.653-1.636,3.653-3.654c0-2.018-1.636-3.652-3.653-3.652c-2.019,0-3.654,1.636-3.654,3.652C8.688,25.114,10.323,26.75,12.342,26.75"/>
+	<path fill="none" stroke="#ffffff" stroke-width="3" d="M8.688,14.597c7.596,0,12.154,3.037,12.154,12.153"/>
+	<path fill="none" stroke="#ffffff" stroke-width="3" d="M8.688,8.75c11.25,0,18,4.5,18,18"/>
+</svg>

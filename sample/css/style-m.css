@@ -1,0 +1,38 @@
+/* レイアウト */
+#container	{
+	width: 100%;
+}
+#iconmenu img {
+	width: 30px;
+	height: 30px;
+}
+#site h1 {
+	font-size: 36px;
+}
+article	{
+	width: 62.5%;
+}
+article h2 {
+	font-size: 20px;
+}
+.date {
+background-color: #0097d8;
+height: 44px;
+width: 80px;
+border: 4px dashed #fff;
+font-size: 80%;
+}
+aside	{
+	width: 31.25%;
+}
+
+/* nivo-lightbox-demo */
+#nivo-lightbox-demo p.indexrole {
+	width: 100%;
+	overflow: hidden;
+}
+#nivo-lightbox-demo p.indexrole a {
+	display: block;
+	float: left;
+	width: 33%;
+}
